@@ -34,8 +34,8 @@ async def status_message_f(client, message):
         # Show All Downloads
         downloads = aria_i_p.get_downloads()
         #
-        DOWNLOAD_ICON = "📥"
-        UPLOAD_ICON = "📤"
+        DOWNLOAD_ICON = "🢇"
+        UPLOAD_ICON = "🢅"
         #
         msg = ""
         for download in downloads:
